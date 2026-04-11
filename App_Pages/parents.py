@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("Data/education_cleaned.csv")
+df = pd.read_csv("education_cleaned.csv")
 st.title("Parents Education Analysis")
 
 # KPI Section
