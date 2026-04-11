@@ -2,9 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-import os
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-file_path = os.path.join(BASE_DIR, "education_cleaned.csv")
+file_path = Path("education_cleaned.csv")
 df = pd.read_csv(file_path)
 st.title("Parents Education Analysis")
 
