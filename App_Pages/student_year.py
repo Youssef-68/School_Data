@@ -3,10 +3,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("/home/youssef/Desktop/Data_Projects/Egypt_Education/Data/education_cleaned.csv")
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+file_path = os.path.join(BASE_DIR, "Data", "education_cleaned.csv")
+df = pd.read_csv(file_path)
 
 st.title("Student Year Analysis")
-
 sns.set_style("whitegrid")
 
 # KPI section
