@@ -5,10 +5,7 @@ import matplotlib.pyplot as plt
 
 # Set page configuration
 st.set_page_config(page_title="Student Dashboard", layout="wide")
-
-import os
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-file_path = os.path.join(BASE_DIR, "education_cleaned.csv")
+file_path = Path("education_cleaned.csv")
 df = pd.read_csv(file_path)
 st.title("Student Performance Dashboard")
 
