@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 file_path = Path("education_cleaned.csv")
 df = pd.read_csv(file_path)
