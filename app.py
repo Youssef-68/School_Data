@@ -12,7 +12,7 @@ st.title("Student Performance Dashboard")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("/home/youssef/Desktop/Data_Projects/Egypt_Education/Data/education_cleaned.csv")
+    return pd.read_csv(file_path)
 
 df = load_data()
 st.markdown("""
