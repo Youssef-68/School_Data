@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("Data/education_cleaned.csv")
+df = pd.read_csv("education_cleaned.csv")
 st.title("Average Score Analysis")
 sns.set_style("whitegrid")
 
