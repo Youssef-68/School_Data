@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # Set page configuration
 st.set_page_config(page_title="Student Dashboard", layout="wide")
-df = pd.read_csv("Data/education_cleaned.csv")
+df = pd.read_csv("education_cleaned.csv")
 st.title("Student Performance Dashboard")
 
 @st.cache_data
