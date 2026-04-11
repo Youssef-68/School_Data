@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 # Set page configuration
 st.set_page_config(page_title="Student Dashboard", layout="wide")
