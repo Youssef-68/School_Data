@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 import os
-
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 file_path = os.path.join(BASE_DIR, "Data", "education_cleaned.csv")
 df = pd.read_csv(file_path)
