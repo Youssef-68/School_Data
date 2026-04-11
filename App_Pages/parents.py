@@ -2,7 +2,10 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("education_cleaned.csv")
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+file_path = os.path.join(BASE_DIR, "education_cleaned.csv")
+df = pd.read_csv(file_path)
 st.title("Parents Education Analysis")
 
 # KPI Section
