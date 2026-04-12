@@ -1,2 +1,2 @@
 # School_Data
-Analyzed an educational dataset on students’ age, education type, parent qualifications &amp; grades across 10 subjects. Compared performance by education type (IGCSE, IB, Thanaweya), studied parent impact, and built correlation matrix. Used Python (pandas, seaborn, matplotlib) with bar charts, boxplots &amp; histograms for EDA.
+Student Performance Dashboard project covering data cleaning, feature engineering, visualization, and basic ML. Analyzed 50K students and built a Streamlit dashboard with key insights. Found weak predictive power and data leakage, showing that data quality matters more than model accuracy.
